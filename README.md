@@ -35,14 +35,16 @@
 
 ## 🏗️ Estructura del repositorio
 
+```
 helpdesk360/
 │
-├── backend/ # Microservicios en Spring Boot
-├── frontend/ # Aplicación React
-├── docker-compose.yml # Orquestación local de servicios
+├── backend/                 # Microservicios en Spring Boot
+├── frontend/                # Aplicación React
+├── docker-compose.yml       # Orquestación local de servicios
 ├── docs/
-│ └── requerimientos.md # Documentación funcional y técnica
+│   └── requerimientos.md    # Documentación funcional y técnica
 └── README.md
+```
 
 ---
 
@@ -51,6 +53,49 @@ helpdesk360/
 > Requiere tener Docker y Docker Compose instalados.
 
 ```bash
-git clone https://github.com/jhonruda25/helpdesk360.git
+git clone https://github.com/tu_usuario/helpdesk360.git
 cd helpdesk360
 docker-compose up --build
+```
+
+El frontend estará disponible en: `http://localhost:3000`  
+El backend en: `http://localhost:8080`
+
+---
+
+## 📅 Planificación (SCRUM)
+
+Plan de desarrollo dividido en 4 sprints de 1 semana cada uno:
+
+| Sprint | Objetivo                             |
+|--------|--------------------------------------|
+| 1      | Login, registro, UI base             |
+| 2      | Gestión de tickets y asignación      |
+| 3      | Comentarios, métricas y dashboard    |
+| 4      | Pruebas, mejoras, documentación final|
+
+---
+
+## 👤 Roles del sistema
+
+- **Usuario final:** Crea y revisa tickets.
+- **Técnico:** Atiende tickets asignados.
+- **Administrador:** Gestiona usuarios y ve estadísticas.
+
+---
+
+## 📌 Estado del proyecto
+
+- [x] Definición funcional
+- [ ] Backend - Microservicio de usuarios
+- [ ] Backend - Microservicio de tickets
+- [ ] Frontend - Interfaz básica
+- [ ] Autenticación JWT
+- [ ] Pruebas unitarias
+- [ ] Dockerización
+
+---
+
+## ✍️ Autor
+
+Desarrollado por Jhonrueda25 como proyecto demostrativo para procesos de selección y mejora continua en desarrollo de software.
